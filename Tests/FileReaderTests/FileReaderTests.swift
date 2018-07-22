@@ -6,7 +6,7 @@ final class FileReaderTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-      XCTAssertEqual(FileReader.read(filename: "hello.txt"), "Hello, World!")
+      XCTAssertEqual(FileReader().read(filename: "hello.txt"), "Hello, World!")
     }
 
 
